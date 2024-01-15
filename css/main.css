@@ -1,0 +1,192 @@
+body{
+    background-color: #1E202B;
+}
+.navbar{
+    background-color: #1E202B;
+    padding: 50px 0;
+
+}
+nav .logo h1{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+nav .logo span{
+    font-size: 10px;
+    font-weight: 300;
+    color: RGB(191, 193, 200);
+}
+.navbar-toggler{
+    border-color: transparent !important;
+}
+.navbar-toggler i{
+    color: white;
+    border: 2px solid transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+.navbar-toggler i:hover{
+    color: #009ad8;
+    border-color: #009ad8;
+    
+}
+.navbar-toggler:focus{
+    box-shadow:  none !important;
+}
+@media screen and (max-width: 990px){
+    .nav-pills{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.nav-pills .nav-item a button{
+    font-size: 14px;
+    padding: 5px 25px;
+    color: white;
+    border: 2px solid transparent;
+    transition: all .5s;
+}
+
+.nav-pills .nav-item a button:hover{
+    background-color: transparent !important;
+    border-color:  #009ad8;
+    color: #009ad8;
+}
+
+
+
+.nav-pills .nav-link.active{
+    background-color: transparent !important;
+    border: 2px solid #009ad8;
+    color: #009ad8;
+}
+
+.home-image{
+    padding: 70px 0px;
+}
+#home {
+    background-image: url(../image/banner.png);
+    background-position: center center;
+    background-size: cover;
+    min-height: 350px
+}
+
+form input{
+    padding:15px 30px 15px 20px !important;
+    background-color: #1e202b !important;
+    border: none !important;
+    color: white !important;
+
+}
+form button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.418) !important;
+    font-size: 14px !important;
+}
+
+#footer{
+    background: #262936;
+    padding: 50px 0
+}
+#footer p{
+    margin: 0px 0px 14px;
+    font-size: 14px;
+    font-weight: 300;
+    color: RGB(191, 193, 200);
+}
+#footer a{
+    font-size: 20px;
+    text-decoration: none !important;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    transition: all .5s;
+}
+#footer a:hover{
+    color: white;
+    background-color: #009ad8;
+}
+.card{
+    border: none !important;
+    --bs-card-bg: none !important
+}
+.card-header{
+    padding: 10px;
+    background-color: #2D303D !important;
+    border-color: #2D303D !important;
+}
+
+.card-body{
+    padding: 30px 20px;
+    background-color: #323544;  
+}
+
+h5{
+    color: RGB(191, 193, 200);
+    font-size: 18px
+}
+.temp{
+    font-size: 90px;
+    color: white;
+}
+.center .card-header{
+    background-color: #222530 !important;
+}
+
+.center .card-body{
+    background-color: #262936;
+
+}
+.card-body .temp-max{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-body .temp-min{
+    color: RGB(191, 193, 200);
+    font-weight: 300;
+}
+.card-body .custom{
+    color: RGB(0, 154, 216);
+    margin: 20px 0;
+    font-weight: 300;
+    font-size: 18px;
+}
+.card-group{
+    margin-top: -150px;
+    margin-bottom: 50px;
+    border-radius: 10px ;
+    overflow: hidden;
+}
+
+#icon{
+    color: #BFC1C8;
+    margin-right: 20px;
+}
+#icon img{
+    margin-right: 5px;
+
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a class="navbar-brand " href="./index.html">
+            <div class="d-flex">
+                <div class="image-logo me-3 align-self-center">
+                    <img src="image/logo.png" alt="logo" class="img-logo">
+                </div>
+                <div class="logo d-flex flex-column">
+                    <h1>Weather</h1>
+                    <span>tagline goes here</span>
+                </div>
+            </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav nav-pills ms-auto mb-2 mb-lg-0 " id="pills-tab" role="tablist">
+                <li class="nav-item me-3 align-self-center" role="presentation ">
+                    <a href="./index.html" class="text-decoration-none">
+                        <button class="nav-link active rounded-pill" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                    </a>     
+                </li>
+                <li class="nav-item me-3  align-self-center" role="presentation">
+                    <a href="#" class="text-decoration-none">
+                        <button class="nav-link  rounded-pill" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">News</button>
+                    </a>     
+                </li>
+                <li class="nav-item me-3  align-self-center" role="presentation">
+                    <a href="#" class="text-decoration-none">
+                        <button class="nav-link  rounded-pill" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Live cameras</button>
+                    </a>     
+                </li>
+                <li class="nav-item me-3  align-self-center" role="presentation">
+                    <a href="#" class="text-decoration-none">
+                        <button class="nav-link  rounded-pill" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Photo</button>
+                    </a>     
+                </li>
+                <li class="nav-item me-3  align-self-center" role="presentation">
+                    <a href="#" class="text-decoration-none">
+                        <button class="nav-link  rounded-pill" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Contact</button>
+                    </a>     
+                </li>
+              </ul>
+          </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="container">
+            <div class="home-image" >
+                <form class="form position-relative " >
+                    <input type="text" id="demo"  class="form-control rounded-pill " placeholder="Find Your Location..." >
+                    <button class="btn btn-primary rounded-pill">Find</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="Date">
+        <div class="container">
+            <div class="card-group" id="cardData">
+            </div>
+        </div>
+    </div>
+ 
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mb-3 ">
+                    <form class="form position-relative ">
+                        <input type="text" class="form-control rounded-pill " placeholder="Enter Your Email to subscribe..." >
+                        <button class="btn btn-primary rounded-pill">Subscribe</button>
+                    </form>
+                </div>
+                <div class="col-md-3 offset-1">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+
+                </div>
+            </div>
+            <p class="mt-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </section>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
